@@ -62,7 +62,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           character['films'] != null && character['films'].isNotEmpty
                               ? 'Films: ${character['films'].join(', ')}'
                               : 'No film information available',
-                          style: const TextStyle(fontSize: 14, color: Colors.grey),
+                          style: const TextStyle(fontSize: 14, color: Colors.black),
                         ),
                       ],
                     ),
